@@ -3,17 +3,17 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 0 184 148;
-  --oui-color-primary-light: 0 220 176;
-  --oui-color-primary-darken: 0 135 108;
+  --oui-color-primary: 0 220 176;
+  --oui-color-primary-light: 0 184 148;
+  --oui-color-primary-darken: 0 161 120;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 0 184 148;
-  --oui-color-link-light: 0 220 176;
+  --oui-color-link: 0 220 176;
+  --oui-color-link-light: 0 184 148;
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-secondary: 200 200 200;
+  --oui-color-tertiary: 150 150 150;
+  --oui-color-quaternary: 100 100 100;
 
   --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
@@ -30,26 +30,26 @@
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 240 240 240;
-  --oui-color-fill-active: 200 200 200;
+  --oui-color-fill: 35 99 87;
+  --oui-color-fill-active: 29 81 71;
 
-  --oui-color-base-1: 17 45 39;
-  --oui-color-base-2: 20 54 47;
-  --oui-color-base-3: 23 63 55;
-  --oui-color-base-4: 26 72 63;
-  --oui-color-base-5: 29 81 71;
-  --oui-color-base-6: 32 90 79;
-  --oui-color-base-7: 35 99 87;
-  --oui-color-base-8: 38 108 95;
-  --oui-color-base-9: 41 117 103;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 40 90 80;
+  --oui-color-base-2: 36 82 72;
+  --oui-color-base-3: 32 74 64;
+  --oui-color-base-4: 28 66 56;
+  --oui-color-base-5: 24 58 48;
+  --oui-color-base-6: 20 50 40;
+  --oui-color-base-7: 16 42 32;
+  --oui-color-base-8: 14 36 28;
+  --oui-color-base-9: 12 30 24;
+  --oui-color-base-10: 0 0 0;
 
   --oui-color-base-foreground: 0 220 176;
   --oui-color-line: 0 184 148;
 
   --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 0 220 176;
+  --oui-color-trading-profit: 41 233 169;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
@@ -97,13 +97,4 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-}
-
-:root {
-  /* …твой набор переменных… */
-}
-
-/* кастом поверх темы Aden */
-.oui-scaffold-footer-powered-by {
-  display: none !important;
 }
