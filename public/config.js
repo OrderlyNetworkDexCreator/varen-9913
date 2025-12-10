@@ -19,7 +19,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Portfolio,Markets,Swap,Vaults,Rewards",
-  "VITE_CUSTOM_MENUS": "Testnet, https://app.varen.testnet.trade/perp/PERP_ETH_USDC; Sub-Accounts, https://app.varen.trade/portfolio; Blog, https://varen.trade/blog; API Documentation, https://docs.varen.trade; Rewards, https://app.varen.trade/rewards",
+  "VITE_CUSTOM_MENUS": "Testnet, https://app.varen.testnet.trade/perp/PERP_ETH_USDC; Blog, https://varen.trade/blog; API Documentation, https://docs.varen.trade/api-reference",
   "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "false",
   "VITE_TELEGRAM_URL": "https://t.me/varen_safeguard",
@@ -37,5 +37,8 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": ""
+  "VITE_ANALYTICS_SCRIPT": "",
+  "VITE_SYMBOL_LIST": "PERP_BTC_USDC,PERP_ETH_USDC,PERP_SOL_USDC,PERP_FARTCOIN_USDC,PERP_ZEC_USDC,PERP_SPX_USDC",
+  "VITE_RESTRICTED_REGIONS": "",
+  "VITE_WHITELISTED_IPS": ""
 };
